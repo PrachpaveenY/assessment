@@ -78,6 +78,8 @@ func GetExpensesIDHandler(c echo.Context) error {
 
 // ====================
 
+// use Thunder Client (PostgresSQL15)
+
 // ***e.GET All
 // EXP04
 // GET /expenses

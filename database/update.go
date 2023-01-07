@@ -58,6 +58,7 @@ func UpdateExpensesHandler(c echo.Context) error {
 }
 
 // ====================
+// use Thunder Client (PostgresSQL15)
 
 // ***e.PUT
 // EXP03

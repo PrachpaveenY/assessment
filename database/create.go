@@ -32,6 +32,8 @@ func CreateExpensesAllHandler(c echo.Context) error {
 
 // ====================
 
+// use Thunder Client (PostgresSQL15)
+
 // ***e.POST ID
 // localhost:2565/expenses/:id (TC)
 // Request Body
