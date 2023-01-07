@@ -67,7 +67,7 @@ func UpdateExpensesHandler(c echo.Context) error {
 // Request Body
 // ```json
 // {
-//     "id": = 1,
+//     "id": 1,
 //     "title": "apple smoothie",
 //     "amount": 89,
 //     "note": "no discount",
@@ -80,7 +80,7 @@ func UpdateExpensesHandler(c echo.Context) error {
 // Request Body
 // ```json
 // {
-//     "id": = 1,
+//     "id": 1,
 //     "amount": 11,
 // }
 // ```

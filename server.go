@@ -18,7 +18,6 @@ func main() {
 	fmt.Println("Welcome to Server")
 
 	database.InitDB()
-	// h := handler.NewApplication(db)
 
 	e := echo.New()
 	e.Use(middleware.BasicAuth(func(username, password string, c echo.Context) (bool, error) {
