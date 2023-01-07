@@ -53,7 +53,7 @@ func main() {
 }
 
 // ====================
-
+// use Thunder Client (PostgresSQL15)
 // PORT = 2565
 // localhost:2565/expenses
 // localhost:2565/expenses/:id
