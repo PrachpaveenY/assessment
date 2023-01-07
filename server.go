@@ -54,11 +54,6 @@ func main() {
 
 // ====================
 
-// postman = https://app.getpostman.com/join-team?invite_code=a56a9840c9024a85f0750204b552c9ec
-// (Get a unique link to share with people. They will be able to join your team by clicking on this link.)
-
-// ====================
-
 // PORT = 2565
 // localhost:2565/expenses
 // localhost:2565/expenses/:id
