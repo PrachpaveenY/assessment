@@ -181,25 +181,4 @@
 * แต่ละ story ควรใช้ branch ของตัวเองแล้ว merge กลับไปที่ main ด้วย 3-way merge
 ![ตัวอย่าง](three-way-merge.png)
 
-<!-- ***dockerfile -->
-# docker build -t devops:assessment
-# docker run devops:assessment
-
-<!-- ***Docker-compose test sandbox (integration test) -->
-# docker-compose -f docker-compose.test.yml down
-# to run test `docker-compose -f docker-compose.test.yml up --build --abort-on-container-exit --exit-code-from it_tests`
-# to tear down `docker-compose -f docker-compose.test.yml down`
-(0 = pass)
-
-<!-- ***sonar-project -->
-# sonar.projectKey=assessment
-# sonar.sources=.
-# sonar.exclusions=**/*_test.go
-# sonar.tests=.
-# sonar.test.inclusions=**/*_test.go
-
-<!-- ***multi stage build Docker image -->
-#    1. go to directory `go-simple-multi-stage-build`
-#    2. try to run `docker build -t go-simple-multi-stage:latest .`
-#    3. check image size `docker images go-simple-multi-stage`
-#    4. try to run container `docker run go-simple-multi-stage`# prachpaveen.github.io
+==============================================
