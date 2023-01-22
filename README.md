@@ -1,4 +1,4 @@
-# Expense tracking system : Assessment Project
+# Expense Tracking System : Assessment Project
 ### Details
 - My site is live at = nil
 - Expense tracking system (REST API)
