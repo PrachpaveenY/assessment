@@ -1,4 +1,5 @@
-# Details
+# Assessment Project
+## Details
 - My site is live at = nil
 - Expense tracking system (REST API)
 - The system can store title, amount, note, tags
@@ -9,7 +10,7 @@
 - Tools = GO, Postman, Docker, Vue.js, JavaScript, HTML5
 </br>
 
-# Prerequisites
+## Prerequisites
 * โปรเจคตั้งต้นคือ[โปรเจคนี้](https://github.com/KKGo-Software-engineering/assessment)
 * กำหนดให้ส่งลิ้งค์คำตอบคือ github repository ที่เก็บโค้ดของคุณ `https://github.com/<your github name>/assessment`
 * *MUST* use go module
