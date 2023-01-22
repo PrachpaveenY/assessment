@@ -1,6 +1,6 @@
 //go:build unite
 
-package main
+package database
 
 import (
 	"testing"

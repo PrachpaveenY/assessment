@@ -23,7 +23,7 @@ func UpdateAllExpensesHandler(c echo.Context) error {
 		return c.JSON(http.StatusInternalServerError, Err{Message: "can't Prepare :" + err.Error()})
 	}
 
-	users, err := stmt.Exec(&u.Title, &u.Amount, &u.Note, pq.Array(&u.Tags))
+	users, err := stmt.Exec(&u.ID, &u.Title, &u.Amount, &u.Note, pq.Array(&u.Tags))
 	if err != nil {
 		return c.JSON(http.StatusInternalServerError, Err{Message: "can't scan :" + err.Error()})
 	}
