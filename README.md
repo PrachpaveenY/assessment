@@ -1,3 +1,14 @@
+# Details
+- My site is live at = nil
+- Expense tracking system (REST API)
+- The system can store title, amount, note, tags
+- The system can add new spending history
+- The system can modify the information of spending
+- The system can pull out all spending information to show
+- The system can retrieve spending information as a list
+- Tools = GO, Postman, Docker, Vue.js, JavaScript, HTML5
+</br>
+
 # Prerequisites
 * โปรเจคตั้งต้นคือ[โปรเจคนี้](https://github.com/KKGo-Software-engineering/assessment)
 * กำหนดให้ส่งลิ้งค์คำตอบคือ github repository ที่เก็บโค้ดของคุณ `https://github.com/<your github name>/assessment`
