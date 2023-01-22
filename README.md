@@ -1,7 +1,7 @@
 # Expense Tracking System : Assessment Project
 ### Details
 - My site is live at = nil
-- Expense tracking system (REST API)
+- It is a REST API system to store the history of spending (expense) of bank customers
 - The system can store title, amount, note, tags
 - The system can add new spending history
 - The system can modify the information of spending
