@@ -6,8 +6,8 @@
 - The system can add new spending history
 - The system can modify the information of spending
 - The system can pull out all spending information to show
-- The system can retrieve spending information as a listgo
-- Tools = GO, Postman, Docker, Vue.js, JavaScript, HTML5
+- The system can retrieve spending information as a list
+- Tools = GO, Thunder Client, Postman, Docker, Vue.js, JavaScript, HTML5
 </br>
 
 ## Prerequisites
