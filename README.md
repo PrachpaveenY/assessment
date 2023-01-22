@@ -1,5 +1,5 @@
 # Assessment Project
-## Details
+### Details
 - My site is live at = nil
 - Expense tracking system (REST API)
 - The system can store title, amount, note, tags
