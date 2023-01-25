@@ -1,0 +1,23 @@
+{
+  "name": "assessment",
+  "version": "1.0.0",
+  "description": "- My site is live at = nil\r - It is a REST API system to store the history of spending (expense) of bank customers\r - The system can store title, amount, note, tags\r - The system can add new spending history\r - The system can modify the information of spending\r - The system can pull out all spending information to show\r - The system can retrieve spending information as a list\r - Tools = GO, PostgreSQL, Thunder Client, Postman, Docker, Vue.js, JavaScript, HTML5\r </br>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PrachpaveenY/assessment.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PrachpaveenY/assessment/issues"
+  },
+  "homepage": "https://github.com/PrachpaveenY/assessment#readme",
+  "dependencies": {
+    "mongodb": "^4.13.0"
+  }
+}
