@@ -32,7 +32,7 @@
 │	├── 📄delete.go				= e.DELETE
 │	├── 📄get.go				= e.GET
 │	├── 📄update_test.go			= Unit test (์Not Complete)
-│	├── 📄update.go				= e.PUT
+│	├── 📄update.go				= e.PUT, e.PATCH
 │	└── 📄user.go				= type struct
 │
 └── 📁frontend-react				= React.js (์Not Complete)
