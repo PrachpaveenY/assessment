@@ -24,7 +24,7 @@
 ```
 📁assessment
 │
-└── 📁database					=  All file HTTP request methods
+└── 📁database					= All file HTTP request methods
 │	├── 📄create_Integration_test.go	= Integration test (์Not Complete)
 │	├── 📄create_test.go			= Unit test (์Not Complete)
 │	├── 📄create.go				= e.POST
