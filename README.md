@@ -1,10 +1,14 @@
 # Expense Tracking System : Assessment Project
 ### Details :
 - My site is live at = nil
+- Status : Not Complete
 - It is a REST API system to store the history of spending (expense) of bank customers
 - The system can storage title, amount, note, tags
-- 
-- Tools = GO, PostgreSQL, Thunder Client, Postman, Docker, Vue.js, JavaScript, HTML5
+- The system can add new spending history
+- The system can modify the information of spending
+- The system can pull out all spending information to show
+- The system can retrieve spending information as a list
+- Tools = GO, PostgreSQL, Thunder Client, Postman, Docker, React.js, JavaScript, HTML5, CSS3
 </br>
 
 ### The following HTTP request methods can be used :
