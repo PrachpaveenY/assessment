@@ -1,14 +1,48 @@
 # Expense Tracking System : Assessment Project
-### Details
+### Details :
 - My site is live at = nil
 - It is a REST API system to store the history of spending (expense) of bank customers
-- The system can store title, amount, note, tags
-- The system can add new spending history
-- The system can modify the information of spending
-- The system can pull out all spending information to show
-- The system can retrieve spending information as a list
+- The system can storage title, amount, note, tags
+- 
 - Tools = GO, PostgreSQL, Thunder Client, Postman, Docker, Vue.js, JavaScript, HTML5
 </br>
+### The following HTTP request methods can be used :
+	e.POST("/expenses", database.CreateExpensesAllHandler)
+	e.GET("/expenses", database.GetExpensesHandler)
+	e.GET("/expenses/:id", database.GetExpensesIDHandler)
+	e.PUT("/expenses/:id", database.UpdateAllExpensesHandler)
+	e.PATCH("/expenses/:id", database.UpdateExpensesHandler)
+	e.DELETE("/expenses/:id", database.DeleteExpensesHandler)
+</br>
+
+### Structure :
+```
+📁assessment
+│
+└── 📁database							=  All file HTTP request methods
+│	├── 📄create_Integration_test.go	= Integration test (์Not Complete)
+│	├── 📄create_test.go				= Unit test (์Not Complete)
+│	├── 📄create.go						= e.POST
+│	├── 📄database.go					= createTable, DATABASE_URL
+│	├── 📄delete.go						= e.DELETE
+│	├── 📄get.go						= e.GET
+│	├── 📄update_test.go				= Unit test (์Not Complete)
+│	├── 📄update.go						= e.PUT
+│	└── 📄user.go						= type struct
+│
+└── 📁frontend-react					= React.js (์Not Complete)
+│   └── 📁...
+│       ├── 📄...
+│       └── 📄...
+│       
+└── 📁postman							= For storage postman_environment.json
+└── 📄dockerfile						
+└── 📄...
+└── 📄server.go							= package main
+```
+</hr>
+
+</br></br>
 
 ## Prerequisites
 * โปรเจคตั้งต้นคือ[โปรเจคนี้](https://github.com/KKGo-Software-engineering/assessment)
