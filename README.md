@@ -24,26 +24,26 @@
 ```
 📁assessment
 │
-└── 📁database							=  All file HTTP request methods
+└── 📁database					=  All file HTTP request methods
 │	├── 📄create_Integration_test.go	= Integration test (์Not Complete)
-│	├── 📄create_test.go				= Unit test (์Not Complete)
-│	├── 📄create.go						= e.POST
-│	├── 📄database.go					= createTable, DATABASE_URL
-│	├── 📄delete.go						= e.DELETE
-│	├── 📄get.go						= e.GET
-│	├── 📄update_test.go				= Unit test (์Not Complete)
-│	├── 📄update.go						= e.PUT
-│	└── 📄user.go						= type struct
+│	├── 📄create_test.go			= Unit test (์Not Complete)
+│	├── 📄create.go				= e.POST
+│	├── 📄database.go			= createTable, DATABASE_URL
+│	├── 📄delete.go				= e.DELETE
+│	├── 📄get.go				= e.GET
+│	├── 📄update_test.go			= Unit test (์Not Complete)
+│	├── 📄update.go				= e.PUT
+│	└── 📄user.go				= type struct
 │
-└── 📁frontend-react					= React.js (์Not Complete)
+└── 📁frontend-react				= React.js (์Not Complete)
 │   └── 📁...
 │       ├── 📄...
 │       └── 📄...
 │       
-└── 📁postman							= For storage postman_environment.json
+└── 📁postman					= For storage postman_environment.json
 └── 📄dockerfile						
 └── 📄...
-└── 📄server.go							= package main
+└── 📄server.go					= package main
 ```
 <hr>
 
