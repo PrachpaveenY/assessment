@@ -6,13 +6,14 @@
 - 
 - Tools = GO, PostgreSQL, Thunder Client, Postman, Docker, Vue.js, JavaScript, HTML5
 </br>
+
 ### The following HTTP request methods can be used :
-	e.POST("/expenses", database.CreateExpensesAllHandler)
-	e.GET("/expenses", database.GetExpensesHandler)
-	e.GET("/expenses/:id", database.GetExpensesIDHandler)
-	e.PUT("/expenses/:id", database.UpdateAllExpensesHandler)
-	e.PATCH("/expenses/:id", database.UpdateExpensesHandler)
-	e.DELETE("/expenses/:id", database.DeleteExpensesHandler)
+- e.POST("/expenses", database.CreateExpensesAllHandler)
+- e.GET("/expenses", database.GetExpensesHandler)
+- e.GET("/expenses/:id", database.GetExpensesIDHandler)
+- e.PUT("/expenses/:id", database.UpdateAllExpensesHandler)
+- e.PATCH("/expenses/:id", database.UpdateExpensesHandler)
+- e.DELETE("/expenses/:id", database.DeleteExpensesHandler)
 </br>
 
 ### Structure :
