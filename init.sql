@@ -1,9 +1,9 @@
 -- Sequence and defined type
-CREATE SEQUENCE IF NOT EXISTS news_tables_id_seq;
+CREATE SEQUENCE IF NOT EXISTS news-tables-id;
 
 -- Table Definition
-CREATE TABLE "news_tables" (
-    "id" int5 NOT NULL DEFAULT nextval('news_tables_id_seq'::regclass),
+CREATE TABLE "news-tables" (
+    "id" int5 NOT NULL DEFAULT nextval('news-tables-id'::regclass),
     "title" text,
     "amount" FLOAT,
 	"note" TEXT,
@@ -11,7 +11,7 @@ CREATE TABLE "news_tables" (
     PRIMARY KEY ("id")
 );
 
-INSERT INTO "news_tables" ("id", "title", "amount", "note", "tags") VALUES (1, 'test-title', 'test-amount', 'test-note', "tags");
+INSERT INTO "news-tables" ("id", "title", "amount", "note", "tags") VALUES (1, 'test-title', 'test-amount', 'test-note', "tags");
 
 -- ====================
 
